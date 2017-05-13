@@ -1,0 +1,54 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: CORINE Land Cover (CLC) база података обезбеђује конзистентне локализоване
+    геоинформације о земљишном покривачу
+  accessConstraints: otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.95'
+  dateTypeCode: creation
+  datestamp: '2011-10-21'
+  denominator: '100000'
+  dist_format: SHAPE
+  distance: ''
+  hierarchylevel: dataset
+  identifier: e0d6756c-1783-45e2-1325-8e84dca3f84f
+  inspireCategory:
+  - geoscientificInformation
+  keywords:
+  - Hydrography
+  - Land use
+  - Land cover
+  - CARDS програм
+  language: sr
+  lineage: 'Прва верзије је израђена 2000. године, а друга је израђена 2006. године.
+    Следећа верзија се очекује 2011. године.
+
+    Подаци су прикупљени и обрађени на основу сателитских снимака методом даљинске
+    детекције.
+
+    CLC номенклатура је хијерархијска и дефинише 44 класе на трећем нивоу, 15 класа
+    на другом нивоу и 5 класа на првом нивоу'
+  linkage: http://www.eea.europa.eu/publications/COR0-landcover
+  organisation_emailAddress: office@sepa.gov.rs
+  organization_name: Агенција за заштиту животне средине
+  otherConstraints: нема ограничења
+  publish_date: '2005-01-01T12:00:00'
+  resourceIdentifier: A2-02-01
+  resourceIdentifierNamespace: INSPIRE_SEPA
+  resourceLanguage: sr
+  resp_organisationName:
+  - Агенција за заштиту животне средине
+  - European Environment Agency (EEA) - Европска агенција за животну средину
+  resp_organisation_emailAddress:
+  - office@sepa.gov.rs
+  - eea@eea.eu.int
+  resp_organisation_role:
+  - user
+  - distributor
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Земљишни пoкривач CORINE
+  useLimitation: no conditions apply

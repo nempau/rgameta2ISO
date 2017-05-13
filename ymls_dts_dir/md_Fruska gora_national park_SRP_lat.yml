@@ -1,0 +1,67 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'На картографској основи коју чини генералисан
+
+    садржај топографске карте размере 1:50000
+
+    приказана је природна и културна баштина,
+
+    туристички објекти, планинарске стазе,
+
+    граница националног парка, граница заштићене
+
+    зоне, степен режима
+
+    заштите...'
+  accessConstraints:
+  - otherRestrictions
+  - otherRestrictions
+  bounding_box_e: '19.98'
+  bounding_box_n: '45.26'
+  bounding_box_s: '45.07'
+  bounding_box_w: '19.25'
+  dateTypeCode: revision
+  datestamp: '2010-10-25'
+  denominator: '60000'
+  dist_format:
+  - tif
+  - cdr
+  - штампана карта
+  distance: ''
+  hierarchylevel: dataset
+  identifier: b2e1ce3f-6fbd-4b82-b516-2447239817d3
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Hydrography
+  - Geographical names
+  - Protected sites
+  - манастир
+  - планинарски дом
+  - бања
+  - национални парк
+  - видиковац
+  - црква
+  language: sr
+  lineage: "Дигитализована карта на основу скенираних топографских карата\nразмере\
+    \ 1:50 000. На дигитализовану основу нанешен тематски \nсадржај према упутству\
+    \ аутора. Аутор и уредник Владан Стојовић."
+  linkage: http://www.rgz.gov.rs/kart-proizvodi/korpa_edit.asp?ArtikalID=1000870&LanguageID=2&MenuID=0020010
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints:
+  - интелектуална својина
+  - Ауторска права су у потпуности, без ограничења пренета на РГЗ на основу правилника
+    о идавању картографских публикација
+  publish_date: '2009-04-13T12:00:00'
+  resourceIdentifier: 99-TURK-03
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: office@rgz.gov.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Планинарско туристичка карта Фрушка гора - национални парк
+  useLimitation: Плаћање накнаде и сагласност РГЗ-а

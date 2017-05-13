@@ -1,0 +1,68 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'Скуп података садржи геопросторне податке у дигиталном облику о катастарским
+    парцелама и деловима парцела из базе података катастра непокретности.
+
+    Геопросторни подаци о непокретностима нарочито садрже:
+
+    - границе катастарских парцела
+
+    - границе посебних делова парцела (објекти и други начини коришћења земљишта)
+
+    - бројеве катастарских парцела и делова парцела
+
+    - друге податке који ближе описују непокретност.'
+  accessConstraints: ''
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.85'
+  dateTypeCode:
+  - creation
+  - revision
+  datestamp: '2014-04-03'
+  denominator:
+  - '500'
+  - '1000'
+  - '2500'
+  - '5000'
+  - '1440'
+  - '2880'
+  dist_format:
+  - shape file
+  - dxf
+  - geodatabase
+  distance: ''
+  hierarchylevel: dataset
+  identifier: e0d6756c-1783-45e2-1325-8e84dca3f84f
+  inspireCategory:
+  - planningCadastre
+  keywords:
+  - Buildings
+  - Cadastral parcels
+  - део катастарске парцеле
+  - број парцеле
+  language: sr
+  lineage: Геопросторни подаци катастра непокретности преводе се из аналогног у дигитални
+    облик у складу са методама дефинисаним Уредбом о дигиталном геодетском плану.
+  linkage: http://www.rgz.gov.rs/reg-opstina/dkp_status.aspx
+  organisation_emailAddress: nsdi@rgz.gov.rs
+  organization_name: Републички геодетки завод
+  otherConstraints: ''
+  publish_date:
+  - '2004-01-01T12:00:00'
+  - '2014-03-01T12:00:00'
+  resourceIdentifier: A1-06-01
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: office@rgz.gov.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Katastarske parcele i objekti
+  useLimitation: Коришћење геопросторних података катастра непокретности дефинисано
+    је Законом о државном премеру и катастру, Правилником о висини таксе за пружање
+    услуга Републичког геодетског завода и Правилником о начину чувања, увида и издавања
+    података премера, катастра непокретности и водова

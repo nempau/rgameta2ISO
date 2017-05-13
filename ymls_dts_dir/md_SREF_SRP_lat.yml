@@ -1,0 +1,62 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'У државном референтном систему врши се хоризонтално и вертикално позиционирање
+    парцела, објеката, водова,
+
+    терена, топографских објеката и објектних целина.
+
+    У оквиру државног референтног система одређује се: просторни(тродимензионални)реф.систем,
+
+    хоризонтални(дводимензионални) реф.систем,
+
+    вертикални(једнодимензионални)реф.систем,гравиметријски и астрономски реф.систем.
+
+    Просторни и хоризонтални реф.систем дефинисани су референтном
+
+    мрежом Републике Србије СРЕФ и мрежом перманентних станица Републике Србије -
+    АГРОС'
+  accessConstraints: otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.95'
+  dateTypeCode: creation
+  datestamp: '2010-10-29'
+  denominator: ''
+  dist_format:
+  - ASCII
+  - bmp
+  - jpg
+  distance: '10'
+  hierarchylevel: dataset
+  identifier: b2e1ce3f-6fbd-4b82-b516-2447239817d3
+  inspireCategory:
+  - location
+  keywords:
+  - Coordinate reference systems
+  - Референтна мрежа, СРЕФ, GPS
+  language: sr
+  lineage: "Државну референтну мрежу чини скуп трајно стабилизованих и приступачних\
+    \ геодетских тачака,\nравномерно распоређених по целој територији Републике Србије\n\
+    на просечном међусобном растојању од 10km.\nТачке државне референтне мреже равномерно\
+    \ распоређене по целој територији Републике Србије\nи на просечном међусобном\
+    \ растојању од 100km \nчине основну референтну мрежу.\nОсновна референтна мрежа\
+    \ представља прву непосредну материјализацију\nпросторног координатног референтног\
+    \ система и обезбеђује датум\nдржавне референтне мреже и реализује се по посебном\
+    \ пројекту у оквиру међународне сарадње."
+  linkage: http://www.rgz.gov.rs
+  organisation_emailAddress: gr@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: поверљивост списа државних институција
+  publish_date: '1997-07-16T12:00:00'
+  resourceIdentifier: A1-01-02
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: gr@rgz.gov.rs
+  resp_organisation_role: owner
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: СРЕФ-Референтна мрежа Републике Србије
+  useLimitation: Тарифе накнада за коришћење података и пружање услуга

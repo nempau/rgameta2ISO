@@ -1,0 +1,54 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: "На картографској основи коју чине општи\nгеографски елементи (рељеф представљен\
+    \ сенком\nи хипсометријском скалом и хидрографска мрежа),\nприказане су границе\
+    \ (државна и покрајинске),\nнасељена места, путна и железничка мрежа,\nназиви\
+    \ планина, планински врхови и њихове \nвисине, национални паркови, ..."
+  accessConstraints:
+  - otherRestrictions
+  - otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.95'
+  dateTypeCode: creation
+  datestamp: '2010-10-29'
+  denominator: '500000'
+  dist_format:
+  - tif
+  - cdr
+  distance: ''
+  hierarchylevel: dataset
+  identifier: 5553a37c-d8fd-b72f-c6bb-8aa855854393
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Transport networks
+  - Geographical names
+  - Hydrography
+  - Elevation
+  - Administrative units
+  - рељеф
+  language: sr
+  lineage: "Дигитализована карта на основу скенираних топографских карта, \nпрерађена\
+    \ према садржају за физичко географске карате по упутству\nаутора и уредника карте\
+    \ Владана Стојовића."
+  linkage: http://www.rgz.gov.rs/kart%2Dproizvodi/korpa_edit.asp?ArtikalID=1000205&LanguageID=2&MenuID=0020010
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints:
+  - интелектуална својина
+  - Ауторска права су у потпуности, без ограничења пренета на РГЗ на основу правилника
+    о идавању картографских публикација
+  publish_date: '2007-09-04T12:00:00'
+  resourceIdentifier: 99-FIZGK_03
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: office@rgz.gov.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Физичко географска карта Србије 500000
+  useLimitation: Плаћање накнаде и сагласност РГЗ-а

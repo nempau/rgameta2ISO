@@ -1,0 +1,51 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'Државну тригонометријску мрежу чини мрежа тригонометријских тачака,
+
+    стабилизованих и одређених по хијерархијском принципу са четири основна и два
+    допунска реда,
+
+    равномерно распоређених по целој територији Републике Србије
+
+    на просечном међусобном растојању мањем од 4km.'
+  accessConstraints: otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.95'
+  dateTypeCode: creation
+  datestamp: '2010-10-19'
+  denominator: ''
+  dist_format: ASCII
+  distance:
+  - '1'
+  - '4'
+  hierarchylevel: dataset
+  identifier: b2e1ce3f-6fbd-4b82-b516-2447239817d3
+  inspireCategory:
+  - location
+  keywords:
+  - Coordinate reference systems
+  - Тригонометријске тачке 1, 2, 3 и 4 реда
+  language: sr
+  lineage: 'Тригонометријска мрежа је развијена у периоду од 1900 до 1950. године.
+
+    Одржавање ове мреже се не ради од 1970.године.
+
+    Не постоје поуздани подаци о броју уништених тачака.'
+  linkage: http://www.rgz.gov.rs
+  organisation_emailAddress: gr@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: поверљивост списа државних институција
+  publish_date: '1900-01-01T12:00:00'
+  resourceIdentifier: A1-01-03
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: gr@rgz.gov.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Тригонометријска мрежа
+  useLimitation: Тарифе накнада за коришћење података и пружање услуга

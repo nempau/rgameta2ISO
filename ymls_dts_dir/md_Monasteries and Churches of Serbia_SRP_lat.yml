@@ -1,0 +1,66 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'На картографској основи коју чине општи
+
+    географски елементи (рељеф, хидрографска мрежа),
+
+    приказане су границе (државна и покрајинске),
+
+    насељена места, путна и железничка мрежа,
+
+    називи планина, планински врхови и њихове
+
+    висине, национални паркови, манастири и цркве
+
+    од изузетног и великог значаја према званичној
+
+    категоризацији ЗЗСКС-е.'
+  accessConstraints:
+  - otherRestrictions
+  - otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.95'
+  dateTypeCode: revision
+  datestamp: '2010-10-26'
+  denominator: '600000'
+  dist_format:
+  - tif
+  - cdr
+  - штампана карта
+  distance: ''
+  hierarchylevel: dataset
+  identifier: b2e1ce3f-6fbd-4b82-b516-2447239817d3
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Transport networks
+  - Hydrography
+  - Geographical names
+  - манастири
+  - цркве
+  language: sr
+  lineage: "Дигитализована карта на основу скенираних топографских карата\nразмере\
+    \ 1:300 000 умањена и генералисана за размеру 1:600000.\nНа дигитализовану основу\
+    \ нанешен тематски \nсадржај према упутству аутора. Аутори Владан Стојовић и Зорица\n\
+    Грујић-Киш, уредник Владан Стојовић."
+  linkage: http://www.rgz.gov.rs/kart-proizvodi/korpa_edit.asp?ArtikalID=1000970&LanguageID=2&MenuID=0020010
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints:
+  - интелектуална својина
+  - Ауторска права су у потпуности, без ограничења пренета на РГЗ на основу правилника
+    о идавању картографских публикација
+  publish_date: '2009-05-15T12:00:00'
+  resourceIdentifier: 99-TURK-10
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: office@rgz.gov.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Туристичка карта Србија, манастири и цркве
+  useLimitation: Плаћање накнаде и сагласност РГЗ-а

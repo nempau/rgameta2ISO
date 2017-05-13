@@ -1,0 +1,56 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: "Тачке основне гравиметријске мреже урађене у \nоквиру премера Републике\
+    \ Србије. Дате су \nкоординате положаја. У оквиру мреже налазе се\nфундаментални\
+    \ репери и референтне тачке."
+  accessConstraints: otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.95'
+  dateTypeCode:
+  - creation
+  - publication
+  datestamp: '2010-11-02'
+  denominator: ''
+  dist_format: ASCII
+  distance:
+  - '50'
+  - '70'
+  hierarchylevel: dataset
+  identifier: b2e1ce3f-6fbd-4b82-b516-2447239817d3
+  inspireCategory:
+  - location
+  keywords:
+  - Coordinate reference systems
+  - гравиметрија, убрзање силе теже, гравиметар
+  language: sr
+  lineage: '1. Гравиметријска мрежа 1. реда 1952/53 (СФРЈ), датум Потсдам, растојање
+    200-300km, број тачака 13.
+
+    2. Гравиметријска мрежа 2. реда 1952-1958 (СФРЈ), датум Потсдам, растојање тачака
+    15-50km, број тачака 1900
+
+    3. Основна гравиметријска мрежа 1964-1967 (СФРЈ), датум Потсдам, растојање тачака
+    до 10km, број тачака 1520
+
+    4. Основна гравиметријска мрежа 2004-2009, датум IGSN71, растојање 50-70km, број
+    тачака 75.'
+  linkage: http://www.rgz.gov.rs
+  organisation_emailAddress: gr@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: поверљивост списа државних институција
+  publish_date:
+  - '2004-12-08T12:00:00'
+  - '2009-05-15T12:00:00'
+  resourceIdentifier: A1-01-04
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: gr@rgz.gov.rs
+  resp_organisation_role: owner
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Гравиметријска мрежа
+  useLimitation: Тарифе накнада за коришћење података и пружање услуга

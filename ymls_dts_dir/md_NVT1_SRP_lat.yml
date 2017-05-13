@@ -1,0 +1,47 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'Мрежу нивелмана високе тачности чине скуп трајно стабилизованих и приступачних
+    репера.
+
+    Радни репери могу бити главни и помоћни и распоређени су на растојањима мањим
+    од 1.5km у виду нивелманских линија.'
+  accessConstraints: otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.95'
+  dateTypeCode: creation
+  datestamp: '2010-11-02'
+  denominator: ''
+  dist_format: ASCII
+  distance: '1.5'
+  hierarchylevel: dataset
+  identifier: b2e1ce3f-6fbd-4b82-b516-2447239817d3
+  inspireCategory:
+  - location
+  keywords:
+  - Elevation
+  - Coordinate reference systems
+  - Репери, висине, висинске разлике, линије, полигони
+  language: sr
+  lineage: 'Нивелано од 1946 до 1963.
+
+    Датум дефинише мареограф у Трсту.
+
+    Број репера је 4232.'
+  linkage: http://www.rgz.gov.rs
+  organisation_emailAddress: gr@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: поверљивост списа државних институција
+  publish_date: '1963-01-01T12:00:00'
+  resourceIdentifier: A1-01-06
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: gr@rgz.gov.rs
+  resp_organisation_role: owner
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Нивелман високе тачности 1
+  useLimitation: Тарифе накнада за коришћење података и пружање услуга

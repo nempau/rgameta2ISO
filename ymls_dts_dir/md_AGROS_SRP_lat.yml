@@ -1,0 +1,53 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'Активна референтна основа Србије - АГРОС,
+
+    представља перманентни сервис прецизног сателитског позиционирања
+
+    на територији Републике Србије. Успостављањем АГРОС остварен је неопходан услов
+
+    за превазилажење проблема који се односе
+
+    на референтне геодетске основе у Републици Србији.'
+  accessConstraints: otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.95'
+  dateTypeCode: creation
+  datestamp: '2010-10-20'
+  denominator: ''
+  dist_format:
+  - RINEX
+  - RTCM порука
+  distance: '70'
+  hierarchylevel: dataset
+  identifier: b2e1ce3f-6fbd-4b82-b516-2447239817d3
+  inspireCategory:
+  - location
+  keywords:
+  - Coordinate reference systems
+  - ГПС, перманентне станице, RINEX, Opservation navigation, files, VRS, RTK, DGPS,
+    PPK
+  language: sr
+  lineage: 'Мрежа је успостављена у фазама од 2002. године до закључно 05.12.2005.
+    године,
+
+    а 16.12.2005. године почиње економско коришћење сервиса АГРОС.'
+  linkage: www.rgz.gov.rs/agros
+  organisation_emailAddress: gr@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: поверљивост списа државних институција
+  publish_date: '2005-12-16T12:00:00'
+  resourceIdentifier: A1-01-01
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: gr@rgz.gov.rs
+  resp_organisation_role: owner
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Активна геодетска основа Србије - АГРОС
+  useLimitation: Уредба о изменама и допунама уредбе о висини накнаде за коришћење
+    података премера и катастра и пружање услуга Републичког геодетског завода

@@ -1,0 +1,50 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: Адресни регистар садржи назив насеља са матичним бројем, назив улице и
+    матични број улице, кућни број са бројем парцеле на којој се тај кућни број налази
+    и X i Y координате кућног броја.
+  accessConstraints: otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.95'
+  dateTypeCode: creation
+  datestamp: '2011-05-05'
+  denominator:
+  - '500'
+  - '1000'
+  - '2500'
+  dist_format: mdb
+  distance: ''
+  hierarchylevel: dataset
+  identifier: 26477b5a-bf93-8a1c-9adb-f39b59bfc43a
+  inspireCategory:
+  - location
+  keywords:
+  - Statistical units
+  - Cadastral parcels
+  - Buildings
+  - Addresses
+  - кућни број
+  - улица
+  language: sr
+  lineage: за подручје града Београда подаци су добијени од градског Завода за статистику
+    и информатику, а за остала подручја од МУП и локалне самоуправе.
+  linkage: http://intranet.rgz.local/intranet/TemplateStandard.aspx?pageID=138
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: нема ограничења
+  publish_date: '2003-11-01T12:00:00'
+  resourceIdentifier: А1-05-01
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: adresni@rgz.gov.rs
+  resp_organisation_role: owner
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Адресни регистар
+  useLimitation: накнада за издавање података у складау са Уредбом о висини накнаде
+    за коришћење података премера и катастра и пружање услуга Републичког геодетског
+    завода

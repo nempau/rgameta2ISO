@@ -1,0 +1,42 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: Дигитални снимци резолуције 8.25 метара, прикупљени 18.05.2014. године
+    TerraSarX радарским системом за подручје западне Србије.
+  accessConstraints: ''
+  bounding_box_e: '20.6'
+  bounding_box_n: '45.3'
+  bounding_box_s: '43.7'
+  bounding_box_w: '18.8'
+  dateTypeCode: creation
+  datestamp: '2014-05-23'
+  denominator: ''
+  dist_format: TIFF (*.tif)
+  distance: '8.25'
+  hierarchylevel: dataset
+  identifier: c8adb3f0-cc68-52ab-2be6-68fa66c1a7d8
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Orthoimagery
+  - радар
+  - снимци
+  language: sr
+  lineage: Дигитални снимци резолуције 8.25 метара прикупљених TerraSarX радарским
+    системом.
+  linkage: ''
+  organisation_emailAddress: tik@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: ''
+  publish_date: '2014-05-18T12:00:00'
+  resourceIdentifier: A2-01
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: tik@rgz.gov.rs
+  resp_organisation_role: user
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: TerraSarX_Zapadna Srbija_2014
+  useLimitation: Услови дистрибуције података су у складу са лиценцним уговором између
+    Републичког геодетског завода и AIRBUS D&S.

@@ -1,0 +1,88 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: "Насељена места су скуп података у оквиру EuroRegionalMap, топогрфског\
+    \ производа за размеру 1:250 000.\nТема ERM насеља (Settlement) за територију\
+    \ Србије обухвата следеће просторне објекте:\nBuiltupP - Насељена места приказана\
+    \ тачком\nBuiltupA - Насељена места чија је урбана зона већа од 0.4км2 су приказана\
+    \ полигоном\n               Поред тога, приказана су и тачком са одговоарајућим\
+    \ подтипом.\nUrbanP - Општине у оквиру великих градова приказане тачком"
+  accessConstraints: ''
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.85'
+  dateTypeCode: creation
+  datestamp: '2014-08-03'
+  denominator: '250000'
+  dist_format:
+  - ESRI geodatabase ver. 10.0
+  - shape file
+  distance: ''
+  hierarchylevel: dataset
+  identifier: e0d6756c-1783-45e2-1325-8e84dca3f84f
+  inspireCategory:
+  - geoscientificInformation
+  keywords:
+  - Population distribution - demography
+  - EroGeographics
+  - EuroRegionalMap
+  - насеља
+  - становништво
+  - попис
+  - урбана подручја
+  language: sr
+  lineage: 'Подаци о насељима прикупљени су и приказани према EuroRegionalMap моделу
+    података и техничкој спецификацији вер. 4.6.
+
+    Локације насељених места су приказане према тополошким правилима у складу са природом
+    појаве коју представљају.
+
+
+    Основа за израду теме о насељима били су векторски подаци са топографских карата
+    1:200 000 и 1:300 000.
+
+    Као додатни извори за прикупљање података коришћени су:
+
+    - ортофото израђен у оквиру CARDS програма
+
+    - SPOT5 мозаик сателитских снимака резолуције 2.5m обезбеђен у оквиру IGIS пројекта
+
+    - скениране топографске карте 1: 25 000, 1:100 000 и 1: 200 000.
+
+    На основу ових извора коригован је положај насеља и прикупљени тражени атрибути.
+
+
+    Подаци о броју становника су преузети од Републичког завода за статистику на основу
+    коначних резултата Пописа становништва, домаћинстава и станова из 2011. године.
+
+    Попис из 2011 не садржи податке о броју становника за територију Косова и Метохије
+    и за општине Бујанова и Прешево збој бојкота пописа.
+
+    Због тога су подаци о броју становника за територију Косова и Метохије преузети
+    од Републичког завода за статистику на основу процене броја становника из 1991.
+
+    За општине Прешево и Бујановац нема података о броју становника.'
+  linkage: http://www.eurogeographics.org/products-and-services/euroregionalmap
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетки завод
+  otherConstraints: ''
+  publish_date: '2013-11-19T12:00:00'
+  resourceIdentifier: A1-08-01
+  resourceIdentifierNamespace: INSPIRE_RGZ_ERM
+  resourceLanguage: sr
+  resp_organisationName:
+  - Републички геодетски завод
+  - EuroGeographics
+  resp_organisation_emailAddress:
+  - office@rgz.gov.rs
+  - sallie.white@eurogeographics.org
+  resp_organisation_role:
+  - resourceProvider
+  - distributor
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: EuroRegionalMap_Насељена места
+  useLimitation: 'Коришћење података из EuroRegionalMap дефинисано je лиценцним споразумом
+    између EuroGeographics-a и националних чланица: Framework Licence Ageement (FLA)
+    Product Annex EuroRegionalMap од 22. децембра 2011.'

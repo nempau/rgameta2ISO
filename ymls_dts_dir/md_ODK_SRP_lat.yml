@@ -1,0 +1,67 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'Основна државна карта садржи приказ природних и изграђених објеката на
+    земљиној површини и израђује се у размери 1:5 000 и 1:10 000
+
+    ОДК приказује топографске објекте разврстане по темама: геодетскe мреже; границе;
+    рељеф; објекти; саобраћајна мрежа; хидрографија; земљишни покривач; географска
+    и друга имена и ознаке.'
+  accessConstraints: otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.95'
+  dateTypeCode: creation
+  datestamp: '2012-04-03'
+  denominator:
+  - '5000'
+  - '10000'
+  dist_format:
+  - Папир
+  - TIFF са TFW
+  distance: ''
+  hierarchylevel: dataset
+  identifier: 30b5edbc-746c-a3b4-77a1-71c54cad912c
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Geographical names
+  - Land cover
+  - Hydrography
+  - Transport networks
+  - Buildings
+  - Elevation
+  - Coordinate reference systems
+  - Administrative units
+  - Основна државна карта (ОДК)
+  - Размера 1:5000
+  - Картографски кључ
+  language: sr
+  lineage: 'Основна државна карта размере 1:5000 у аналогном облику израђена је у
+    периоду од 1948. до 1998. године.
+
+    Основну државна карта израђена је на основу аерофотограметријског снимања Завода
+    за геодетске и фотограметријске послове "Геопремер" и штампана од стране Завод
+    за картографију "Геокарта".
+
+    На геопорталу су објављени скенирани и геореференцирани листови основне државне
+    карте.'
+  linkage: ''
+  organisation_emailAddress: tik@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: Када се ОДК не користи за сопствене потребе, већ за потребе умножавања
+    и даље дистрибуције, накнада се утврђује посебним уговором у зависности од вредности
+    ОДК и очекиване добити корисника података.
+  publish_date: '1948-01-01T12:00:00'
+  resourceIdentifier: RGZ
+  resourceIdentifierNamespace: 99-ODK-01
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: tik@rgz.gov.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Основна државна карта (ОДК)
+  useLimitation: Уредба о изменама и допунама Уредбе о висини накнаде за коришћење
+    података и пружање услуга Републичког геодетског завода

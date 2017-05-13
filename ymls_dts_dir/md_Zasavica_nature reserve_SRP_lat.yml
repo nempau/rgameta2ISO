@@ -1,0 +1,61 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'На картографској основи коју чини генералисан
+
+    садржај топографске карте размере 1:25000,
+
+    приказана је природна и културна баштина,
+
+    туристички објекти, граница зоне резервата,
+
+    степени заштите,...'
+  accessConstraints:
+  - otherRestrictions
+  - otherRestrictions
+  bounding_box_e: '19.63'
+  bounding_box_n: '45'
+  bounding_box_s: '44.83'
+  bounding_box_w: '19.35'
+  dateTypeCode: publication
+  datestamp: '2010-10-26'
+  denominator: '50000'
+  dist_format:
+  - tif
+  - cdr
+  - штампана карта
+  distance: ''
+  hierarchylevel: dataset
+  identifier: b2e1ce3f-6fbd-4b82-b516-2447239817d3
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Hydrography
+  - Geographical names
+  - Transport networks
+  - хотел
+  - камп
+  - црква
+  - риболов
+  language: sr
+  lineage: "Дигитализована карта на основу скенираних топографских карата\nразмере\
+    \ 1:50000. На дигитализовану основу нанешен тематски \nсадржај према упутству\
+    \ аутора. Аутор Зорица Грујић-Киш, уредник\nВладан Стојовић."
+  linkage: http://www.rgz.gov.rs/kart-proizvodi/korpa_edit.asp?ArtikalID=1001005&LanguageID=2&MenuID=0020010
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints:
+  - интелектуална својина
+  - Ауторска права су у потпуности, без ограничења пренета на РГЗ на основу правилника
+    о идавању картографских публикација
+  publish_date: '2007-10-15T12:00:00'
+  resourceIdentifier: 99-TURK-09
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: office@rgz.gov.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Специјални резерват природе Засавица
+  useLimitation: Плаћање накнаде и сагласност РГЗ-а

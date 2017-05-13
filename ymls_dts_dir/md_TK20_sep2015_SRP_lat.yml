@@ -1,0 +1,60 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'Топографска карта 1:20000 урађена на основу
+
+    аерофотограметријског снимања 2011. и 2012. год. на карти
+
+    су приказани: административне границе,
+
+    хидрографија, транспортна мрежа, објекти,
+
+    геодетске тачке, шуме, воћњаци, виногради...'
+  accessConstraints: ''
+  bounding_box_e: '23.2'
+  bounding_box_n: '43.6'
+  bounding_box_s: '42.2'
+  bounding_box_w: '21.5'
+  dateTypeCode: creation
+  datestamp: '2015-09-16'
+  denominator: '20000'
+  dist_format:
+  - pdf
+  - tiff
+  distance: ''
+  hierarchylevel: dataset
+  identifier: bwzfkyxb.oex
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Protected sites
+  - Utility and governmental services
+  - Transport networks
+  - Land cover
+  - Elevation
+  - Coordinate reference systems
+  - Buildings
+  - Administrative units
+  - Hydrography
+  - Geographical names
+  - топографска карта
+  - '20000'
+  language: sr
+  lineage: Карте су урађене на основу аерофотограметријског снимања из 2011. и 2012.
+    године урађеног у оквиру IGIS пројекта
+  linkage: http://geoshare.rgz.gov.rs/arcgis/services/Topografska_karta_20_000_septembar_2015/ImageServer/WMSServer
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: ''
+  publish_date: '2015-09-01T12:00:00'
+  resourceIdentifier: 99-TK20-01
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: office@rgz.gov.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Topografska karta 20 000_septembar 2015
+  useLimitation: Уредба о висини накнаде за коришћење података премера и катастра
+    и пружања услуга РГЗ-а

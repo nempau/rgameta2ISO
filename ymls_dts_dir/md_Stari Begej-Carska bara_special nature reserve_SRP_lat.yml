@@ -1,0 +1,61 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'На картографској основи коју чини генералисан
+
+    садржај топографске карте размере 1:25000,
+
+    приказана је природна и културна баштина,
+
+    туристички објекти, граница зоне резервата,
+
+    степен заштите,...'
+  accessConstraints:
+  - otherRestrictions
+  - otherRestrictions
+  bounding_box_e: '20.47'
+  bounding_box_n: '45.32'
+  bounding_box_s: '45.21'
+  bounding_box_w: '20.23'
+  dateTypeCode: publication
+  datestamp: '2010-10-26'
+  denominator: '25000'
+  dist_format:
+  - tif
+  - cdr
+  distance: ''
+  hierarchylevel: dataset
+  identifier: b2e1ce3f-6fbd-4b82-b516-2447239817d3
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Transport networks
+  - Hydrography
+  - Geographical names
+  - рибњак
+  - бара
+  - хотел
+  - резерват
+  - риболов
+  language: sr
+  lineage: "Дигитализована карта на основу скенираних топографских карата\nразмере\
+    \ 1:25000. На дигитализовану основу нанешен тематски \nсадржај према упутству\
+    \ аутора. Аутор и уредник Владан Стoјовић."
+  linkage: http://www.rgz.gov.rs/kart-proizvodi/korpa_edit.asp?ArtikalID=1001445&LanguageID=2&MenuID=0020010
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints:
+  - интелектуална својина
+  - Ауторска права су у потпуности, без ограничења пренета на РГЗ на основу правилника
+    о идавању картографских публикација
+  publish_date: '2008-08-06T12:00:00'
+  resourceIdentifier: 99-TURK-08
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: office@rgz.gov.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Специјални резерват природе - Стари Бегеј и Царска Бара
+  useLimitation: Плаћање накнаде и сагласност РГЗ-а

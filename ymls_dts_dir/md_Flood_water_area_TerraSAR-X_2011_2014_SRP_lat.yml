@@ -1,0 +1,44 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: Мапа промена делинеације сталних и поплавних вода израђена на основу TeraSar-X
+    снимака из 2011. и 2014. године на делу подручја западне Србије.
+  accessConstraints: ''
+  bounding_box_e: '20.6'
+  bounding_box_n: '45.3'
+  bounding_box_s: '43.7'
+  bounding_box_w: '18.8'
+  dateTypeCode: creation
+  datestamp: '2014-05-23'
+  denominator: '1'
+  dist_format: SHAPEFILE (*.SHP)
+  distance: ''
+  hierarchylevel: dataset
+  identifier: 821a3fd9-d1c3-dffd-9091-3f58819a5087
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Natural risk zones
+  - радар
+  - мапа промена
+  - поплава
+  - сталне воде
+  language: sr
+  lineage: Водене површине на делу подручја западне Србије израђене на основу TeraSar-X
+    снимака из 2011. и 2014. године.
+  linkage: ''
+  organisation_emailAddress: tik@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: ''
+  publish_date: '2014-05-18T12:00:00'
+  resourceIdentifier: A3-12
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: tik@rgz.gov.rs
+  resp_organisation_role: user
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Vodene povrsine_zapadna Srbija_2011_2014(TerraSarX)
+  useLimitation: Услови дистрибуције података су у складу са лиценцним уговором између
+    Републичког геодетског завода и AIRBUS D&S.

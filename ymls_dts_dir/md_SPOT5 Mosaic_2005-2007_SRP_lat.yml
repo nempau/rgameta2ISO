@@ -1,0 +1,61 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'Мозаик територије Републике Србије је израђен на основу архивских снимака
+    SPOT5 сателитског система из периода од 2005 до 2007. године.
+
+    Резолуција архивског сателитског мозаика је 2,5 метара а тачност ± 5 метара.
+
+    За орторектификацију сателитских снимака коришћен је REF3D дигитални висински
+    модел резолуције 30 метара.'
+  accessConstraints: ''
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.8'
+  dateTypeCode:
+  - creation
+  - revision
+  datestamp: '2014-01-16'
+  denominator: ''
+  dist_format: GeoTIFF
+  distance: '2.5'
+  hierarchylevel: dataset
+  identifier: 30b5edbc-746c-a3b4-77a1-71c54cad912c
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Orthoimagery
+  - мозаик
+  - сателит
+  - снимци
+  - ортофото
+  - SPOT5
+  language: sr
+  lineage: 'SPOT5 мозаик територије Републике Србије је настао од архивских снимака
+    SPOT5 сателитског система из периода од 2005. до 2007. године у оквиру пројекта
+    "Национална инфраструктура просторних података и центар за даљинску детекцију
+    за Републику Србију -IGIS" кроз сарадњу са француским конзорцијумом "IGN France
+    International" и "EADS Astrium".
+
+    Орторектификација је извршена помоћу REF3D дигиталног модела висина резолуције
+    30 метара.
+
+    Такође, извршена је и радиометријска корекција производа.'
+  linkage: ''
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: ''
+  publish_date:
+  - '2005-01-01T12:00:00'
+  - '2007-12-31T12:00:00'
+  resourceIdentifier: A2-03-01
+  resourceIdentifierNamespace: INSPIRE_RGZ_IGIS_GE
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: office@rgz.gov.rs
+  resp_organisation_role: owner
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Мозаик SPOT5_2005-2007
+  useLimitation: Spot Satellite Products Multi-Licennse Agreement, ITF-AJ-0164-10

@@ -1,0 +1,53 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: "На основи коју чине ортофото снимци из 2008. год.\nприказане су границе\
+    \ и називи општина, називи\nделова града, називи улица, кућни бројеви на \nпочетку\
+    \ и крају улице, важни објекти\nпредстављени одговарајућим картографским\nсимболом,\
+    \ означене главне саобраћајнице..."
+  accessConstraints:
+  - otherRestrictions
+  - otherRestrictions
+  bounding_box_e: '20.53'
+  bounding_box_n: '44.86'
+  bounding_box_s: '44.71'
+  bounding_box_w: '20.36'
+  dateTypeCode: revision
+  datestamp: '2010-10-27'
+  denominator: '8500'
+  dist_format:
+  - tif
+  - штампана карта
+  distance: ''
+  hierarchylevel: dataset
+  identifier: b2e1ce3f-6fbd-4b82-b516-2447239817d3
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Administrative units
+  - Addresses
+  - Orthoimagery
+  - улица
+  - кућни број
+  - општина
+  language: sr
+  lineage: "Картографска основа ортофото снимци из 2008 године,\nназиви улица према\
+    \ подацима завода за статистику Београда,\nкућни бројеви делом преузети са катастарских\
+    \ планова а делом \nтеренски подаци."
+  linkage: http://www.rgz.gov.rs/kart-proizvodi/korpa_edit.asp?ArtikalID=1000310&LanguageID=2&MenuID=0020010
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints:
+  - поверљивост списа државних институција
+  - Карта се може користити само уз сагласност надлежне организације
+  publish_date: '2010-09-30T12:00:00'
+  resourceIdentifier: A2-03-01
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: office@rgz.gov.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Фотокарта Београда
+  useLimitation: Плаћање накнаде и сагласност РГЗ-а

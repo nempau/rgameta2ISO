@@ -1,0 +1,71 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: "Poligon PAK-a obuhvata skup zgrada u jednoj ulici.\nPrateći alfa-numerički\
+    \ atributi su: PAK (šestocifreni pošatnski adresni kod), naziv ulice i šifra ulice,\
+    \ opseg brojeva (od broj/podbroj-do broj/pobroj), indikator parnosti ((deo)parna-neparna\
+    \ strana ulice), naselje, opština, pošta, reon. \nInformacija o broju domaćinstava\
+    \ na PAK-u može da se dobije kao posebna usluga."
+  accessConstraints: otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '42.2'
+  bounding_box_w: '18.5'
+  dateTypeCode:
+  - creation
+  - revision
+  datestamp: '2014-04-01'
+  denominator:
+  - '2500'
+  - '5000'
+  - '10000'
+  - '14500'
+  - '25000'
+  dist_format: 'e-mailom  ili na prenosivim medijima (CD, DVD, hard disk i sl.): tab,
+    shp, kml'
+  distance: ''
+  hierarchylevel: dataset
+  identifier: c8adb3f0-cc68-52ab-2be6-68fa66c1a7d8
+  inspireCategory:
+  - location
+  keywords:
+  - Addresses
+  - Population distribution - demography
+  - PAK
+  - poštanski adresni kod
+  - Kućni broj
+  - Broj domaćinstava
+  - ulica
+  - naselje
+  - opština
+  - poštanski broj
+  - reon
+  language: sr
+  lineage: "Pošta je nadležna institucija za upravljanje bazom poštanskog adresnog\
+    \ koda.\nOpseg kućnih brojeva koje obuhvata jedan PAK može biti: \n-svi kućni\
+    \ brojevi u jednoj ulici – najčešće slučaj u ruralnom području\n-svi parni odnosno\
+    \ neparni kućni brojevi u ulici\n-deo ulice (od raskrsnice do raskrsnice, od broja\
+    \ do broja)-u gusto naseljenim gradskim sredinama\n-jedan kućni broj – za zgrade\
+    \ od značaja ili sa velikom koncentracijom pošiljaka\n-BB  i kuće sa posebnom\
+    \ oznakom"
+  linkage: http://www.posta.rs/struktura/lat/it/usluge%20GIS-a.asp
+  organisation_emailAddress: gis@jp.ptt.rs
+  organization_name: JP 'Pošta Srbije'
+  otherConstraints: интелектуална својина
+  publish_date:
+  - '2003-01-01T12:00:00'
+  - '2014-03-31T12:00:00'
+  resourceIdentifier: A1-05-03
+  resourceIdentifierNamespace: INSPIRE_POSTA
+  resourceLanguage: sr
+  resp_organisationName: JP 'Pošta Srbije'
+  resp_organisation_emailAddress: gis@jp.ptt.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: PAK-poštanski adresni kod
+  useLimitation:
+  - 60 din. po poligonu PAK-a sa pratećim alfa-numeričkim atributima, PTT Službeni
+    glasnik 594 od 21.12.2009.
+  - 6 din. po domaćinstvu za informaciju o broju domaćinstava na PAK-u, PTT Službeni
+    glasnik 758 od 30.12.2011.

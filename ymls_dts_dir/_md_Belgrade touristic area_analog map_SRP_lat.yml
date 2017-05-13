@@ -1,0 +1,66 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'На картографској основи коју чине општи
+
+    географски елементи (рељеф представљен сенком
+
+    и хипосометријском скалом, хидрографска мрежа),
+
+    приказана су насељенљ места, саобраћајнице,
+
+    раздаљине у km, културна и природна баштина,...'
+  accessConstraints:
+  - otherRestrictions
+  - otherRestrictions
+  bounding_box_e: '21.97'
+  bounding_box_n: '45.31'
+  bounding_box_s: '44.14'
+  bounding_box_w: '19.83'
+  dateTypeCode: revision
+  datestamp: '2010-11-01'
+  denominator: '200000'
+  dist_format:
+  - tif
+  - штампана карта
+  distance: ''
+  hierarchylevel: dataset
+  identifier: b2e1ce3f-6fbd-4b82-b516-2447239817d3
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Hydrography
+  - Transport networks
+  - Geographical names
+  - археолошка налазишта
+  - манастир
+  - црква
+  - бања
+  - мотел
+  - камп
+  language: sr
+  lineage: 'Аналогно урађена карта. На картографској основи добијеној
+
+    генералисањем топографских карата размере 1:50000, умањених
+
+    на размеру 1:200000 приказан је тематски садржај према упутству
+
+    аутора карте. Аутор и уредник Владан Стојовић.'
+  linkage: http://www.rgz.gov.rs/kart-proizvodi/korpa_edit.asp?ArtikalID=1000965&LanguageID=2&MenuID=0020010
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints:
+  - интелектуална својина
+  - Ауторска права су у потпуности, без ограничења пренета на РГЗ на основу правилника
+    о идавању картографских публикација
+  publish_date: '2009-11-01T12:00:00'
+  resourceIdentifier: 99-TURK-11
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: office@rgz.gov.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Туристичко подручје Београда
+  useLimitation: Плаћање накнаде и сагласност РГЗ-а

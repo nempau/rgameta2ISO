@@ -1,0 +1,60 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: "Карта садржи стамбене, јавне и индустријске \nобјекте, стамбене површине,\
+    \ паркове, гробља,\nшуме, неизграђене пољопривредне површине,\nназиве улица, смер\
+    \ улица, туристичке ојекте,\nглавне саобраћајнице, границе и називе општина..."
+  accessConstraints:
+  - otherRestrictions
+  - otherRestrictions
+  bounding_box_e: '20.52'
+  bounding_box_n: '44.87'
+  bounding_box_s: '44.71'
+  bounding_box_w: '20.36'
+  dateTypeCode: revision
+  datestamp: '2010-10-27'
+  denominator: '20000'
+  dist_format:
+  - tif
+  - cdr
+  - штампана карта
+  distance: ''
+  hierarchylevel: dataset
+  identifier: b2e1ce3f-6fbd-4b82-b516-2447239817d3
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Buildings
+  - Addresses
+  - улице
+  - хотели
+  - позоришта
+  - амбасаде
+  - школе
+  - факултети
+  - индустрија
+  - болница
+  - дом здравља
+  language: sr
+  lineage: "На картографској основи која је дигитализована на основу скениране\nОДК\
+    \ из периода 1986-1991. год. и ажурирана на основу ортофото \nснимака из 2003.године,\
+    \ приказан је тематски садржај према упутству\nаутора карте. Аутор и уредник Владан\
+    \ Стојовић."
+  linkage: http://www.rgz.gov.rs/kart-proizvodi/korpa_edit.asp?ArtikalID=1001015&LanguageID=2&MenuID=0020010
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints:
+  - интелектуална својина
+  - Ауторска права су у потпуности, без ограничења пренета на РГЗ на основу правилника
+    о идавању картографских публикација
+  publish_date: '2010-10-07T12:00:00'
+  resourceIdentifier: A1-05-01
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: office@rgz.gov.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Туристичка карта Београд
+  useLimitation: Плаћање накнаде и сагласност РГЗ-а

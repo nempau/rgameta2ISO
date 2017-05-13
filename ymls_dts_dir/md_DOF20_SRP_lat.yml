@@ -1,0 +1,48 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: Дигитални ортофото резолуције 20 cm израђен у оквиру донаторског CARDS
+    програма EU.
+  accessConstraints: otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '42.2'
+  bounding_box_w: '18.95'
+  dateTypeCode: creation
+  datestamp: '2010-11-04'
+  denominator: ''
+  dist_format:
+  - TIFF
+  - MrSID
+  - ECW
+  distance: '20'
+  hierarchylevel: dataset
+  identifier: b2e1ce3f-6fbd-4b82-b516-2447239817d3
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Orthoimagery
+  - CARDS, EU донација, ДОФ, DOP, ортофото, дигитални ортофото
+  language: sr
+  lineage: 'Снимање је обављено дигиталном камером UltraCam X.
+
+    Поред RGB снимака, постоје и CIR снимци.'
+  linkage: http://www.rgz.gov.rs/template1.asp?PageName=2009_06_22_01&MenuID=none&LanguageID=1
+  organisation_emailAddress: tik@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: Када се ортофото не користи за сопствене потребе, већ за потребе
+    умножавања и даље дистрибуције (израду новог производа или за потребе маркетинга),
+    накнада се утврђује посебним уговором у зависности од вредности ортофотоа и очекиване
+    добити корисника података.
+  publish_date: '2007-09-01T12:00:00'
+  resourceIdentifier: A2-03-02
+  resourceIdentifierNamespace: INSPIRE-RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: tik@rgz.gov.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Дигитални ортофото 20 cm
+  useLimitation: Уредба о изменама и допунама Уредбе о висини накнаде за коришћење
+    података премера и катастра и пружање услуга Републичког геодетског завода

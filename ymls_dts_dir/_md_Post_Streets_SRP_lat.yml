@@ -1,0 +1,63 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'Linija koja označava položaj ulice.
+
+    Prateći alfa-numerički atributi: naziv ulice, šifra ulice i status naziva/šifre
+    ulice.'
+  accessConstraints: otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '42.2'
+  bounding_box_w: '18.5'
+  dateTypeCode:
+  - creation
+  - revision
+  datestamp: '2014-04-01'
+  denominator:
+  - '2500'
+  - '5000'
+  - '10000'
+  - '14500'
+  - '25000'
+  dist_format: 'e-mailom  ili na prenosivim medijima (CD, DVD, hard disk i sl.): tab,
+    shp, kml'
+  distance: ''
+  hierarchylevel: dataset
+  identifier: 2a54ae4d-1f50-66fa-71df-7615b952b146
+  inspireCategory:
+  - location
+  keywords:
+  - Addresses
+  - ulica
+  language: sr
+  lineage: 'Sve zvanične nazive ulica tj. one koje je lokalna samouprava objavila
+    u Službenim glasnicima Pošta je implementirala svoju bazu podataka. Takve ulice
+    imaju status ''PTT-zvanična''.
+
+    Po podacima Pošte oko 30% ulica (uglavnom u ruralnom području) nisu imenovane.
+    Takvim ulicama Pošta je dodelila ime po saznanjima poštara kako lokalno stanovništvo
+    zove tu ulicu. Takve ulice imaju status ''PTT-interna''.
+
+    Specijalno za Beograd Pošta preuzima šifarnik ulica od Zavoda za informatiku i
+    statistiku Beograda. Ove ulice imaju status ''GEC''.
+
+    U skladu sa metodologijom šifriranja ulica Zavoda za informatiku i statistiku
+    Beograda Pošta je razvila šifarski sistem za sve ostale ulice u Srbiji.'
+  linkage: http://www.posta.rs/struktura/lat/it/usluge%20GIS-a.asp
+  organisation_emailAddress: gis@jp.ptt.rs
+  organization_name: JP 'Pošta Srbije'
+  otherConstraints: интелектуална својина
+  publish_date:
+  - '2003-01-01T12:00:00'
+  - '2014-03-12T12:00:00'
+  resourceIdentifier: A1-05-02
+  resourceIdentifierNamespace: INSPIRE_POSTA
+  resourceLanguage: sr
+  resp_organisationName: JP 'Pošta Srbije'
+  resp_organisation_emailAddress: gis@jp.ptt.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Ulična mreža iz GIS sistema JP ’Pošta Srbije’
+  useLimitation: 1 din. po km ulične mreže, PTT Službeni glasnik 758 od 30.12.2011.

@@ -1,0 +1,48 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: "База пописних података садржи податке о \nскуповима становништва, домаћинстава\
+    \ и \nстанова (пол, старост, националност, \nструктура стана, површина обрадивог\
+    \ земљишта,...)"
+  accessConstraints: otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.95'
+  dateTypeCode:
+  - creation
+  - publication
+  datestamp: '2011-04-04'
+  denominator: '500'
+  dist_format: pdf, xls
+  distance: ''
+  hierarchylevel: dataset
+  identifier: 29fe8217-7846-76a0-3b14-3ee5c3333133
+  inspireCategory:
+  - society
+  keywords:
+  - Population distribution - demography
+  - попис становништва
+  - попис домаћинстава
+  - попис станова
+  language: sr
+  lineage: "Скуп података обухвата основне податке добијене у претходном попису \n\
+    становништва, домаћинстава и станова"
+  linkage: www.stat.gov.rs
+  organisation_emailAddress: stat@stat.gov.rs
+  organization_name: Републички завод за статистику
+  otherConstraints: поверљивост списа државних институција
+  publish_date:
+  - '2002-04-01T12:00:00'
+  - '2011-04-04T12:00:00'
+  resourceIdentifier: A3-01-01
+  resourceIdentifierNamespace: INSPIRE_RZS
+  resourceLanguage: sr
+  resp_organisationName: Републички завод за статистику
+  resp_organisation_emailAddress: stat@stat.gov.rs
+  resp_organisation_role: owner
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Попис становништва, домаћинстава и станова, 2002.
+  useLimitation: Јавности су доступни само публиковани подаци. За све остале податке
+    и додатне обраде неопходна је сагласност директора.

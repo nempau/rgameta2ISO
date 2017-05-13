@@ -1,0 +1,49 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'Мрежу прецизног нивелмана чини скуп трајно стабилизованих и приступачних
+    репера.
+
+    Радни репери могу бити главни и помоћни и распоређени су на растојањима мањим
+    од 1.5km у виду нивелманских линија.'
+  accessConstraints: otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.95'
+  dateTypeCode: creation
+  datestamp: '2010-11-02'
+  denominator: ''
+  dist_format: ASCII
+  distance: '1'
+  hierarchylevel: dataset
+  identifier: b2e1ce3f-6fbd-4b82-b516-2447239817d3
+  inspireCategory:
+  - location
+  keywords:
+  - Elevation
+  - Coordinate reference systems
+  - Reperi, visine, visinske razlike, linije, poligoni
+  language: sr
+  lineage: 'Нивелано од 1905 до 193.
+
+    Датум дефинише мареограф у Трсту.
+
+    Раздаљина између тачака је приближно 1km.
+
+    Број репера 11724.'
+  linkage: http://www.rgz.gov.rs
+  organisation_emailAddress: gr@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: поверљивост списа државних институција
+  publish_date: '1931-01-01T12:00:00'
+  resourceIdentifier: A1-01-05
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: gr@rgz.gov.rs
+  resp_organisation_role: owner
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Прецизни нивелман
+  useLimitation: Тарифе накнада за коришћење података и пружање услуга

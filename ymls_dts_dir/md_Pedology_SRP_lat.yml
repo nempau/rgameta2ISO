@@ -1,0 +1,41 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: Педолошка карта садржи податке о типовима земљишта са Основне педолошке
+    карте 1:50000
+  accessConstraints: ''
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '42.74'
+  bounding_box_w: '18.95'
+  dateTypeCode: creation
+  datestamp: '2011-10-21'
+  denominator: '50000'
+  dist_format: SHAPE
+  distance: ''
+  hierarchylevel: dataset
+  identifier: 1593e442-5c82-38ed-e286-3ef5569753a3
+  inspireCategory:
+  - geoscientificInformation
+  keywords:
+  - Soil
+  - Типови земљишта
+  language: sr
+  lineage: 'Педолошка карта је урађена од стране Института за земљиште из Београда.
+
+    Подаци су прикупљани у периоду од 1953 до 1984. године.'
+  linkage: ''
+  organisation_emailAddress: office@sepa.gov.rs
+  organization_name: Агенција за заштиту животне средине
+  otherConstraints: ''
+  publish_date: '1953-01-01T12:00:00'
+  resourceIdentifier: A3-03-01
+  resourceIdentifierNamespace: INSPIRE_SEPA
+  resourceLanguage: sr
+  resp_organisationName: Агенција за заштиту животне средине
+  resp_organisation_emailAddress: office@sepa.gov.rs
+  resp_organisation_role: custodian
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Педолошка карта
+  useLimitation: conditions unknown

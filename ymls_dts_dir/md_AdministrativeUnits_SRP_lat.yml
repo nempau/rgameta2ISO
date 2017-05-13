@@ -1,0 +1,67 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'Регистар просторних јединица садржи границу, назив и матични број за
+    следеће просторне јединице: Република Србија, аутономна покрајина, управни округ,
+    град, општина, катастарски срез, катастарска општина, насеље, месна заједница,
+    статистички и пописни круг.
+
+    Пописни и статистички круг немају назив.'
+  accessConstraints: otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.95'
+  dateTypeCode: creation
+  datestamp: '2011-04-27'
+  denominator:
+  - '500'
+  - '1000'
+  - '2500'
+  - '5000'
+  - '10000'
+  - '50000'
+  - '300000'
+  dist_format:
+  - shp
+  - gdb
+  distance: ''
+  hierarchylevel: dataset
+  identifier: 1199ceb0-87ca-c6a3-f423-146ce7f6bc2a
+  inspireCategory:
+  - boundaries
+  keywords:
+  - Statistical units
+  - Administrative units
+  - Република Србија
+  - Аутономна покрајина
+  - управни округ
+  - град
+  - катастарски срез
+  - Општина
+  - Катастарска општина
+  - насеље
+  - Месна заједница
+  - РПЈ
+  - статистички круг
+  - пописни круг
+  language: sr
+  lineage: Према Закону о регистру просторних јединица Републички геодетски завод
+    и Републички завод за статистику су надлежни за регистар просторних јединица.
+  linkage: ''
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: нема ограничења
+  publish_date: '1996-01-01T12:00:00'
+  resourceIdentifier: A1-04-01
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: office@rgz.gov.rs
+  resp_organisation_role: owner
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Регистар просторних јединица
+  useLimitation: накнада за коришћење података регистра просторних јединица у складу
+    са Уредбом о висини накнаде за коришћење података премера и катастра и пружање
+    услуга Републичког геодетског завода ("Службени гласник РС", број 45/02);

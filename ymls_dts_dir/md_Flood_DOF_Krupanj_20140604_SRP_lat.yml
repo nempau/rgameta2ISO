@@ -1,0 +1,59 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'Дигитални ортофото резолуције 13cm за део Крупња погођен поплавама 2014.
+    године.
+
+    Подаци прикупљени у оквиру донаторског пројекта Републичког геодетског завода
+    и предузећа "GeoGIS Consultants“.'
+  accessConstraints: ''
+  bounding_box_e: '19.3972'
+  bounding_box_n: '44.3774'
+  bounding_box_s: '44.36'
+  bounding_box_w: '19.3383'
+  dateTypeCode: creation
+  datestamp: '2014-07-02'
+  denominator: ''
+  dist_format: TIFF (*.tif) with TFW (*.tfw)
+  distance: '0.13'
+  hierarchylevel: dataset
+  identifier: 29fe8217-7846-76a0-3b14-3ee5c3333133
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Orthoimagery
+  - ортофото
+  - беспилотна летелица
+  - ДОФ
+  - БАС
+  - поплаве
+  language: sr
+  lineage: 'Снимање је извршено 04. јуна 2014. године беспилотним аерофотограметријским
+    системом „"Sensefly eBee“ предузећа "GeoGIS Consultants“.
+
+    Обухваћено је уже подручје насељеног места Крупањ уз токове река Ликодре, Змајевац
+    и Чађавице у површини од 400 хектара.
+
+    Обрада прикупљених података је извршена у софтверу SensFly eMotion, док је израда
+    дигиталног ортофотоа извршена у софтверском систему Pixel Factory.'
+  linkage: ''
+  organisation_emailAddress: tik@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: ''
+  publish_date: '2014-06-04T12:00:00'
+  resourceIdentifier: A2-03
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName:
+  - Републички геодетски завод
+  - GeoGIS Consultants
+  resp_organisation_emailAddress:
+  - tik@rgz.gov.rs
+  - geogis@yubc.net
+  resp_organisation_role:
+  - custodian
+  - custodian
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Digitalni ortofoto Krupanj_4 jun 2014
+  useLimitation: conditions unknown

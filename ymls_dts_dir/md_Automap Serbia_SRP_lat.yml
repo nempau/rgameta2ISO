@@ -1,0 +1,61 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: "На картографској основи коју чине општи\nгеографски елементи (рељеф,\
+    \ приказан сенком\nи хидрографска мрежа), приказане су границе \n(државна и покрајинске),\
+    \ насељена места,\nпутна мрежа, раздаљине у km,бројеви путева,\nжелезничка мрежа,туристички\
+    \ објекти,\nприродна и културна баштина,.."
+  accessConstraints:
+  - otherRestrictions
+  - otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.95'
+  dateTypeCode: revision
+  datestamp: '2010-10-26'
+  denominator: '600000'
+  dist_format:
+  - tif
+  - cdr
+  - штампана карта
+  distance: ''
+  hierarchylevel: dataset
+  identifier: b2e1ce3f-6fbd-4b82-b516-2447239817d3
+  inspireCategory:
+  - transportation
+  keywords:
+  - Geographical names
+  - Hydrography
+  - Transport networks
+  - ауто пут
+  - магистрални пут
+  - регионални пут
+  - локални пут
+  - железница
+  - превој
+  - успон
+  - граница
+  - растојања
+  language: sr
+  lineage: "Дигитализована карта на основу скенираних топографских карата\nразмере\
+    \ 1:300 000 умањена и генералисана за размеру 1:600000.\nНа дигитализовану основу\
+    \ нанешен тематски \nсадржај према упутству аутора. Аутор и уредник Владан Стојовић."
+  linkage: http://www.rgz.gov.rs/kart%2Dproizvodi/korpa_edit.asp?ArtikalID=1001010&LanguageID=2&MenuID=0020010
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints:
+  - интелектуална својина
+  - Ауторска права су у потпуности, без ограничења пренета на РГЗ на основу правилника
+    о идавању картографских публикација
+  publish_date: '2008-08-29T12:00:00'
+  resourceIdentifier: A1-07-01
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: office@rgz.gov.rs
+  resp_organisation_role: custodian
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Ауто карта Србије
+  useLimitation: Плаћање накнаде и сагласност РГЗ-а

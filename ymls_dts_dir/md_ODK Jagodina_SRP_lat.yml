@@ -1,0 +1,59 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'Основна државна карта 1:5000 урађена на основу
+
+    аерофотограметријског снимања 2009. год. на карти
+
+    су приказани: административне границе,
+
+    хидрографија, транспортна мрежа, објекти,
+
+    геодетске тачке, шуме, воћњаци, виногради...'
+  accessConstraints: ''
+  bounding_box_e: '21.4'
+  bounding_box_n: '44.1'
+  bounding_box_s: '43.9'
+  bounding_box_w: '21.2'
+  dateTypeCode: creation
+  datestamp: '2015-09-16'
+  denominator: '5000'
+  dist_format:
+  - pdf
+  - tiff
+  distance: ''
+  hierarchylevel: dataset
+  identifier: 2083dcaf-da88-9a99-a01c-a17c4e9fa470
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Coordinate reference systems
+  - Utility and governmental services
+  - Transport networks
+  - Protected sites
+  - Land cover
+  - Hydrography
+  - Geographical names
+  - Elevation
+  - Buildings
+  - Addresses
+  - основна државна карта
+  - '5000'
+  language: sr
+  lineage: Карте су урађене на основу аерофотограметријског снимања 2009. године
+  linkage: ''
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: ''
+  publish_date: '2015-09-01T12:00:00'
+  resourceIdentifier: 99-ODK5-01
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: office@rgz.gov.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Osnovna Drzavna Karta_5000_Jagodina
+  useLimitation: Уредба о висини накнаде за коришћење података премера и катастра
+    и пружања услуга РГЗ-а

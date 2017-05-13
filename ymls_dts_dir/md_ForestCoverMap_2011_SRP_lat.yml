@@ -1,0 +1,50 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: Карта шумског покривача за територију Републике Србије израђена у оквиру
+    Одсека за фотограметрију и даљинску детекцију на основу SPOT 5 сателитских снимака
+    епохе 2011 резолуције 10 метара.
+  accessConstraints: otherRestrictions
+  bounding_box_e: '23.01'
+  bounding_box_n: '46.19'
+  bounding_box_s: '41.85'
+  bounding_box_w: '18.82'
+  dateTypeCode: creation
+  datestamp: '2015-03-19'
+  denominator: ''
+  dist_format:
+  - Shapefile (*.shp)
+  - GeoTiff Raster (*.tif)
+  distance: '10'
+  hierarchylevel: dataset
+  identifier: badd6235-49a8-3e18-acee-b051c3c449c1
+  inspireCategory:
+  - enviroment
+  keywords:
+  - Bio-geographical regions
+  - SPOT 5 мултиспектрални снимци
+  - Шума
+  - Зимзелене шуме
+  - Листопадне шуме
+  - Мешовите шуме
+  language: sr
+  lineage: "Овај производ је настао полуаутоматском анализом орторектификованих и\
+    \ радиометријски коригованих сателитских снимака просторне резолуције 10 m.\n\
+    Класе и кодови класа овог производа су: \n80 - зимзелене шуме \n70 - листопадне\
+    \ шуме \n75 - мешовите шуме"
+  linkage: ''
+  organisation_emailAddress: tik@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: no limitations
+  publish_date: '2015-01-08T12:00:00'
+  resourceIdentifier: A2-02-02
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: tik@rgz.gov.rs
+  resp_organisation_role: custodian
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Karta sumskog pokrivaca
+  useLimitation: Правилник о висини таксе за пружање услуга РГЗ-а (”Службени гласник
+    РС”, бр. 116/13, 5/14-исправка, 8/14 и 7/15)

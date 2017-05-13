@@ -1,0 +1,113 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'Хидрографска мрежа је скуп података у оквиру EuroRegionalMap, топогрфског
+    производа за размеру 1:250 000.
+
+    ERM хидрографија за територију Србије обухвата следеће просторне објекте:
+
+    DAMC - Бране, уставе и предводнице приказане тачком
+
+    DAML - Бране, уставе и предводнице приказане линијом
+
+    LAKERESA - Природна и вештачка језера, баре и рибњаци
+
+    ISLANDA - Острва
+
+    SPRINGP - Бање и извори топле воде
+
+    SPRINGC - Већи извори река повезани са хидрографском мрежом
+
+    SWAMPA - Мочварна, влажна земљишта
+
+    RAPIDSC - Водопади
+
+    WATRCRSL - Водотоци приказани линијом
+
+    WATRCRSА - Водотоци приказани полигоном'
+  accessConstraints: ''
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.85'
+  dateTypeCode:
+  - creation
+  - revision
+  datestamp: '2014-04-01'
+  denominator: '250000'
+  dist_format:
+  - ESRI geodatabase ver. 10.0
+  - shape file
+  distance: ''
+  hierarchylevel: dataset
+  identifier: 30b5edbc-746c-a3b4-77a1-71c54cad912c
+  inspireCategory:
+  - inlandWaters
+  keywords:
+  - Hydrography
+  - брана
+  - устава
+  - преводница
+  - језеро
+  - бара
+  - рибњак
+  - острво
+  - извор
+  - бања
+  - мочвара
+  - влажно земљиште
+  - водопад
+  - водоток
+  - река
+  - EroGeographics
+  - EuroRegionalMap
+  language: sr
+  lineage: 'Подаци хидрографске мреже су прикупљени и приказани према EuroRegionalMap
+    моделу података и техничкој спецификацији вер. 4.6.
+
+    Хидрографски објекти су приказани према тополошким правилима у складу са природом
+    појаве коју представљају. Нпр. водотокови су повезани у линијску мрежу.
+
+
+    Основа за израду хидрографске мреже били су векторски подаци са топографских карата
+    1:200 000 и 1:300 000.
+
+    Као додатни извори за прикупљање података коришћени су:
+
+    - ортофото израђен у оквиру CARDS програма
+
+    - SPOT5 мозаик сателитских снимака резолуције 2.5m обезбеђен у оквиру IGIS пројекта
+
+    - скениране топографске карте 1: 25 000, 1:100 000 и 1: 200 000.
+
+
+    Поједини атрибути су преузети од Републичке дирекције за воде на основу споразума
+    о размени података.
+
+    Тако да су из водопривредног информационог система преузети подаци о националној
+    хијерархији водотокова, националном ID за реке првог реда, пловности и др.'
+  linkage: http://www.eurogeographics.org/products-and-services/euroregionalmap
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетки завод
+  otherConstraints: ''
+  publish_date:
+  - '2012-12-12T12:00:00'
+  - '2013-10-13T12:00:00'
+  resourceIdentifier: A1-08-01
+  resourceIdentifierNamespace: INSPIRE_RGZ_ERM
+  resourceLanguage: sr
+  resp_organisationName:
+  - Републички геодетски завод
+  - EuroGeographics
+  resp_organisation_emailAddress:
+  - office@rgz.gov.rs
+  - sallie.white@eurogeographics.org
+  resp_organisation_role:
+  - resourceProvider
+  - distributor
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: EuroRegionalMap_Хидрографска мрежа
+  useLimitation: 'Коришћење података из EuroRegionalMap дефинисано je лиценцним споразумом
+    између EuroGeographics-a и националних чланица: Framework Licence Ageement (FLA)
+    Product Annex EuroRegionalMap од 22. децембра 2011.'

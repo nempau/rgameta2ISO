@@ -1,0 +1,45 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: Мозаик троканалних SPOT6 снимака просторне резолуције 1,5 m за западни
+    део територије Републике Србије,  орторектификованих уз помоћ REF3D дигиталног
+    модела терена.
+  accessConstraints: ''
+  bounding_box_e: '20.4'
+  bounding_box_n: '45'
+  bounding_box_s: '44.2'
+  bounding_box_w: '19'
+  dateTypeCode: creation
+  datestamp: '2014-05-23'
+  denominator: ''
+  dist_format: GeoTiff (*.tif)
+  distance: '1.5'
+  hierarchylevel: dataset
+  identifier: 2083dcaf-da88-9a99-a01c-a17c4e9fa470
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Orthoimagery
+  - SPOT6
+  - мозаик
+  - сателит
+  - снимак
+  - орторектификоване сцене
+  language: sr
+  lineage: Овај производ је орторектификован и радиометријски коригован.
+  linkage: ''
+  organisation_emailAddress: tik@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: ''
+  publish_date: '2014-05-19T12:00:00'
+  resourceIdentifier: A2-03-01
+  resourceIdentifierNamespace: INSPIRE_RGZ_IGIS_GE
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: tik@rgz.gov.rs
+  resp_organisation_role: user
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Mozaik_SPOT6_zapadna_Srbija_19_05_2014
+  useLimitation: Услови дистрибуције података су у складу са лиценцним уговором између
+    Републичког геодетског завода и AIRBUS D&S.

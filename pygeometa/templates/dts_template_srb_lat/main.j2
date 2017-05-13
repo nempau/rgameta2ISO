@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:geonet="http://www.fao.org/geonetwork" xmlns:gml="http://www.opengis.net/gml" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/iso/19139/20060504/gmd/gmd.xsd http://www.isotc211.org/2005/gmx http://schemas.opengis.net/iso/19139/20060504/gmx/gmx.xsd">
+    <!-- fileIdentifier -->
+    <gmd:fileIdentifier>
+        <gco:CharacterString>{{ record['metadata']['identifier'] }}</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <!-- metadataLanguage -->
+    <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2" codeListValue="srp">Serbian</gmd:LanguageCode>
+    </gmd:language>
+    <!-- characterSet -->
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeSpace="ISOTC211/19115" codeListValue="MD_CharacterSetCode_utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmx Codelists.xml#MD_CharacterSetCode" />
+    </gmd:characterSet>
+    <!-- resourceType -->
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <!-- Point of Contact -->
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:organisationName>
+                <gco:CharacterString>{{ record['metadata']['organization_name'] }}</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>{{ record['metadata']['organisation_emailAddress'] }}</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmx Codelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <!-- metadataDate - Date Stamp-->
+    <gmd:dateStamp>
+    {% set datestamp = record['metadata']['datestamp']|normalize_datestring %}
+    {% if datestamp|length > 11 %}
+    <gco:DateTime>{{ datestamp }}</gco:DateTime>
+    {% else %}
+    <gco:Date>{{ datestamp }}</gco:Date>
+    {% endif %}
+    </gmd:dateStamp>
+    <!-- metadataStandardName-->
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO19115</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <!-- metadataStandardVersion -->
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>2003/Cor.1:2006</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <!-- referenceSystemInfo-->
+    <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+            <gmd:referenceSystemIdentifier>
+                <gmd:RS_Identifier>
+                    <gmd:code>
+                        <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/3046</gco:CharacterString>
+                    </gmd:code>
+                </gmd:RS_Identifier>
+            </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+    </gmd:referenceSystemInfo>
+    <!-- identificationInfo-->
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <!-- resourceTitle - title -->
+                    <gmd:title>
+                        <gco:CharacterString> {{ record['metadata']['title']|e }}</gco:CharacterString>
+                    </gmd:title>
+                    <!-- TemporalUpdate/dateOfCreation - Date of publication -->
+		    {% if record['metadata']['dateTypeCode'] is string %}
+		    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+			        {% set publish_date = record['metadata']['publish_date']|normalize_datestring %}
+				{% if publish_date|length > 11 %}
+				<gco:DateTime>{{ publish_date }}</gco:DateTime>
+				{% else %}
+				<gco:Date>{{ publish_date }}</gco:Date>
+				{% endif %}
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmx Codelists.xml#CI_DateTypeCode" codeListValue="{{ record['metadata']['dateTypeCode'] }} " />
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+		    {% else %}
+		    {% for date in record['metadata']['publish_date'] %}
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+			        {% set publish_date = date|normalize_datestring %}
+				{% if publish_date|length > 11 %}
+				<gco:DateTime>{{ publish_date }}</gco:DateTime>
+				{% else %}
+				<gco:Date>{{ publish_date }}</gco:Date>
+				{% endif %}
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmx Codelists.xml#CI_DateTypeCode" codeListValue="{{ record['metadata']['dateTypeCode'][loop.index0] }} " />
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+		    {% endfor %}
+		    {% endif %}
+                   <!-- resourceIdentifier - identifier -->
+                    <gmd:identifier>
+                        <gmd:RS_Identifier>
+                            <!-- Code -->
+                            <gmd:code>
+                                <gco:CharacterString>{{ record['metadata']['resourceIdentifier'] }}</gco:CharacterString>
+                            </gmd:code>
+                            <!-- Namespace - codeSpace -->
+                            <gmd:codeSpace>
+                                <gco:CharacterString> {{ record['metadata']['resourceIdentifierNamespace'] }} </gco:CharacterString>
+                            </gmd:codeSpace>
+                        </gmd:RS_Identifier>
+                    </gmd:identifier>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <!-- resourceAbstract - abstract -->
+            <gmd:abstract>
+                <gco:CharacterString>{{ record['metadata']['abstract'] }}</gco:CharacterString>
+            </gmd:abstract>
+            <!-- pointOfContact - Owner, Distributor-->
+	    {% if record['metadata']['resp_organisation_role'] is string %}
+	    <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <!-- organisationName -->
+                    <gmd:organisationName>
+                        <gco:CharacterString>{{ record['metadata']['resp_organisationName'] }}</gco:CharacterString>
+                    </gmd:organisationName>
+                    <!-- emailAddress -->
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>{{ record['metadata']['resp_organisation_emailAddress']}}</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <!-- organisationRole -->
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmx Codelists.xml#CI_RoleCode" codeListValue="{{ record['metadata']['resp_organisation_role']}}" />
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+	    {% else %}
+	    {% for org in record['metadata']['resp_organisationName']  %}
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <!-- organisationName -->
+                    <gmd:organisationName>
+                        <gco:CharacterString>{{ record['metadata']['resp_organisationName'][loop.index0] }}</gco:CharacterString>
+                    </gmd:organisationName>
+                    <!-- emailAddress -->
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>{{ record['metadata']['resp_organisation_emailAddress'][loop.index0]}}</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <!-- organisationRole -->
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmx Codelists.xml#CI_RoleCode" codeListValue="{{ record['metadata']['resp_organisation_role'][loop.index0]}}" />
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+	    {% endfor %}
+	    {% endif %}
+         	<gmd:resourceMaintenance>
+        		<gmd:MD_MaintenanceInformation>
+         			<gmd:maintenanceAndUpdateFrequency>
+            			<gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards       ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MaintenanceFreque ncyCode" codeListValue="asNeeded" />
+          			</gmd:maintenanceAndUpdateFrequency>
+          			<gmd:maintenanceNote>
+            			<gco:CharacterString>Svaka promena se ažurira.</gco:CharacterString>
+          			</gmd:maintenanceNote>
+        		</gmd:MD_MaintenanceInformation>
+     		 </gmd:resourceMaintenance>
+            <!-- Inspire Keywords -->
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>                    
+                    <gmd:keyword>
+                        <gco:CharacterString>{{ record['metadata']['keywords'][0]|e}}</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:thesaurusName>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date>
+                                <gmd:CI_Date>
+                                    <gmd:date>
+                                        <gco:Date>2008-06-01</gco:Date>
+                                    </gmd:date>
+                                    <gmd:dateType>
+                                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                    </gmd:dateType>
+                                </gmd:CI_Date>
+                            </gmd:date>
+                        </gmd:CI_Citation>
+                    </gmd:thesaurusName>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <!-- Free Keywords -->
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <!-- Keyword values -->
+		    {% for dk in record['metadata']['keywords'] %}
+                    <gmd:keyword>
+                        <gco:CharacterString>{{ dk|e }}</gco:CharacterString>
+                    </gmd:keyword>
+		    {% endfor %}
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <!-- Constraints -->
+            <!-- Conditions applying to access and use -->
+            <gmd:resourceConstraints>
+                <gmd:MD_Constraints>
+                    <gmd:useLimitation>
+                        <gco:CharacterString>{{ record['metadata']['useLimitation']|e}}</gco:CharacterString>
+                    </gmd:useLimitation>
+                </gmd:MD_Constraints>
+            </gmd:resourceConstraints>
+            <!-- Limitation on public access -->
+	    {% if record['metadata']['accessConstraints'] is string %}
+            <gmd:resourceConstraints>
+                <gmd:MD_LegalConstraints>
+                    <gmd:accessConstraints>
+                        <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="{{ record['metadata']['accessConstraints']}}">{{ record['metadata']['accessConstraints']}}
+			</gmd:MD_RestrictionCode>
+                    </gmd:accessConstraints>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>{{record['metadata']['otherConstraints']}}</gco:CharacterString>
+                    </gmd:otherConstraints>
+                </gmd:MD_LegalConstraints>
+            </gmd:resourceConstraints>
+	    {% else %}
+	    {% for acon in record['metadata']['accessConstraints'] %}
+	       <gmd:resourceConstraints>
+                <gmd:MD_LegalConstraints>
+                    <gmd:accessConstraints>
+                        <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="{{ acon }}">{{ acon }}</gmd:MD_RestrictionCode>
+                    </gmd:accessConstraints>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>{{record['metadata']['otherConstraints'][loop.index0]}}</gco:CharacterString>
+                    </gmd:otherConstraints>
+                </gmd:MD_LegalConstraints>
+            </gmd:resourceConstraints>
+	    {% endfor %}
+	    {% endif %}
+            <!-- QualityValidity - Quality and validity -->
+            <!-- spatialResolution -->
+	    {% if record['metadata']['denominator'] is iterable and record['metadata']['denominator'] is not string %}
+	    {% for den in record['metadata']['denominator'] %}
+	    <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:equivalentScale>
+                        <gmd:MD_RepresentativeFraction>
+                            <gmd:denominator>
+                                <gco:Integer>{{den}}</gco:Integer>
+                            </gmd:denominator>
+                        </gmd:MD_RepresentativeFraction>
+                    </gmd:equivalentScale>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
+	    {%endfor%}
+	    {% elif record['metadata']['denominator'].strip() %}
+            <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:equivalentScale>
+                        <gmd:MD_RepresentativeFraction>
+                            <gmd:denominator>
+                                <gco:Integer>{{record['metadata']['denominator']}}</gco:Integer>
+                            </gmd:denominator>
+                        </gmd:MD_RepresentativeFraction>
+                    </gmd:equivalentScale>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
+	    {% endif %}
+	    {% if record['metadata']['distance'] is iterable and record['metadata']['distance'] is not string %}
+	    {% for dist in record['metadata']['distance'] %}
+	    <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:distance>
+                        <gco:Distance uom="metres">{{dist}}</gco:Distance>
+                    </gmd:distance>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
+	    {%endfor%}
+	    {% elif record['metadata']['distance'].strip() %}
+            <gmd:spatialResolution>
+                <gmd:MD_Resolution>
+                    <gmd:distance>
+                        <gco:Distance uom="metres">{{record['metadata']['distance']}}</gco:Distance>
+                    </gmd:distance>
+                </gmd:MD_Resolution>
+            </gmd:spatialResolution>
+	    {% endif %}
+            <!-- resourceLanguage - language -->
+            <gmd:language>
+                <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="srp">Serbian </gmd:LanguageCode>
+            </gmd:language>
+            <!-- Classification -->
+            <!-- inspireCategory -->
+	    {% for tc in record['metadata']['inspireCategory'] %}
+	    <gmd:topicCategory>
+	    <gmd:MD_TopicCategoryCode>{{ tc }}</gmd:MD_TopicCategoryCode>
+	    </gmd:topicCategory>
+	    {% endfor %}
+            <gmd:extent>
+                <!-- GeographicLocation -->
+                <gmd:EX_Extent>
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>{{record['metadata']['bounding_box_w']}}</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>{{record['metadata']['bounding_box_e']}}</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>{{record['metadata']['bounding_box_s']}}</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>{{record['metadata']['bounding_box_n']}}</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <!-- temporalElement -->
+            <gmd:extent>
+                <gmd:EX_Extent>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="ID_05d1d6c2-111f-4dc5-b51d-551a93cfdbbc" xsi:type="gml:TimePeriodType">
+                                    <gml:beginPosition>{{record['metadata']['t_extnt_beginPosition']}}</gml:beginPosition>
+                                    <gml:endPosition>{{record['metadata']['t_extnt_endPosition']}}</gml:endPosition>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <!-- distributionInfo-->
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+	    {% if record['metadata']['dist_format'] is string %}
+            <gmd:distributionFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>{{ record['metadata']['dist_format'] }}</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version>
+                        <gco:CharacterString>unknown</gco:CharacterString>
+                    </gmd:version>
+                </gmd:MD_Format>
+            </gmd:distributionFormat>
+	   {% else %}
+	   {% for df in record['metadata']['dist_format'] %}
+            <gmd:distributionFormat>
+                <gmd:MD_Format>
+                    <gmd:name>
+                        <gco:CharacterString>{{ df }}</gco:CharacterString>
+                    </gmd:name>
+                    <gmd:version>
+                        <gco:CharacterString>unknown</gco:CharacterString>
+                    </gmd:version>
+                </gmd:MD_Format>
+            </gmd:distributionFormat>
+	    {% endfor %}
+	    {% endif %}
+            <!-- transferOptions-->
+            <gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>{{record['metadata']['linkage']|e}}</gmd:URL>
+                            </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <!-- dataQuality info -->
+    <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+            <gmd:scope>
+                <gmd:DQ_Scope>
+                    <gmd:level>
+                        <gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode">dataset</gmd:MD_ScopeCode>
+                    </gmd:level>
+                </gmd:DQ_Scope>
+            </gmd:scope>
+            <gmd:report>
+                <gmd:DQ_DomainConsistency xsi:type="gmd:DQ_DomainConsistency_Type">
+                    <gmd:measureIdentification>
+                        <gmd:RS_Identifier>
+                            <gmd:code>
+                                <gco:CharacterString>Conformity_001</gco:CharacterString>
+                            </gmd:code>
+                            <gmd:codeSpace>
+                                <gco:CharacterString>INSPIRE</gco:CharacterString>
+                            </gmd:codeSpace>
+                        </gmd:RS_Identifier>
+                    </gmd:measureIdentification>
+                    <gmd:result>
+                        <gmd:DQ_ConformanceResult xsi:type="gmd:DQ_ConformanceResult_Type">
+                            <gmd:specification>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                        <gco:CharacterString>Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:date>
+                                        <gmd:CI_Date>
+                                            <gmd:date>
+                                                <gco:Date>2010-12-08</gco:Date>
+                                            </gmd:date>
+                                            <gmd:dateType>
+                                                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                            </gmd:dateType>
+                                        </gmd:CI_Date>
+                                    </gmd:date>
+                                </gmd:CI_Citation>
+                            </gmd:specification>
+                            <gmd:explanation>
+                                <gco:CharacterString>Videti navedenu specifikaciju.</gco:CharacterString>
+                            </gmd:explanation>
+                            <gmd:pass><gco:Boolean>false</gco:Boolean></gmd:pass>
+                        </gmd:DQ_ConformanceResult>
+                    </gmd:result>
+                </gmd:DQ_DomainConsistency>
+            </gmd:report>
+            <!-- lineage -->
+            <gmd:lineage>
+                <gmd:LI_Lineage>
+                    <gmd:statement>
+                        <gco:CharacterString>{{record['metadata']['lineage']|e}}</gco:CharacterString>
+                    </gmd:statement>
+                </gmd:LI_Lineage>
+            </gmd:lineage>
+        </gmd:DQ_DataQuality>
+    </gmd:dataQualityInfo>
+</gmd:MD_Metadata>

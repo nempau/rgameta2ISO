@@ -1,0 +1,49 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: RapidEye satelitski snimci, prostorna rezolucija 6.5 m
+  accessConstraints: ''
+  bounding_box_e: '20.1453'
+  bounding_box_n: '45.1972'
+  bounding_box_s: '44.0795'
+  bounding_box_w: '18.7319'
+  dateTypeCode: creation
+  datestamp: '2014-06-19'
+  denominator: ''
+  dist_format:
+  - tif
+  - ecw
+  - img
+  - ntf
+  distance: '6.5'
+  hierarchylevel: dataset
+  identifier: e0d6756c-1783-45e2-1325-8e84dca3f84f
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Orthoimagery
+  - Satelitski snimak
+  language: sr
+  lineage: Ovaj proizvod je radiometrijski korigovan.
+  linkage: ''
+  organisation_emailAddress: office@vekom.com
+  organization_name: Vekom Geo d.o.o. Beograd
+  otherConstraints: ''
+  publish_date: '2014-05-19T12:00:00'
+  resourceIdentifier: A2-03-01
+  resourceIdentifierNamespace: INSPIRE_Vekom
+  resourceLanguage: sr
+  resp_organisationName:
+  - BlackBridge
+  - Vekom Geo d.o.o.
+  resp_organisation_emailAddress:
+  - rapideye@blackbridge.com
+  - office@vekom.com
+  resp_organisation_role:
+  - resourceProvider
+  - distributor
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: RapidEye_19 maj 2014
+  useLimitation: Uslovi distribucije podataka su u skladu sa ugovorom između Vekom
+    Geo d.o.o. i BlackBridge

@@ -1,0 +1,57 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'Подаци су прикупљени за потребе праћења клизишта у Малом Зворнику изазвано
+    поплавама 2014.
+
+    Подаци о снимању клизишта:
+
+    - коришћена је беспилотни аерофотограметријски систем Sensefly eBee
+
+    - датум: 20.05.2014.
+
+    - снимање и обрада: предузеће Livona d.o.o. из Београда'
+  accessConstraints: ''
+  bounding_box_e: '19.11'
+  bounding_box_n: '44.39'
+  bounding_box_s: '44.38'
+  bounding_box_w: '19.1'
+  dateTypeCode: creation
+  datestamp: '2014-05-28'
+  denominator: ''
+  dist_format: TIFF
+  distance: '7'
+  hierarchylevel: dataset
+  identifier: 29fe8217-7846-76a0-3b14-3ee5c3333133
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Orthoimagery
+  - клизиште
+  - поплава
+  - UAV
+  - UAF
+  language: sr
+  lineage: 'Снимање је извршено беспилотним аерофотограметријским системом Sensefly
+    eBee.
+
+    Резолуција снимања: 3-20 cm
+
+    Просечна остварена резолуција снимка: 6,95 cm/piksel
+
+    Камера: Canon 127HS (16 MP)'
+  linkage: ''
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: ''
+  publish_date: '2014-05-20T12:00:00'
+  resourceIdentifier: A2-03-01
+  resourceIdentifierNamespace: INSPIRE_Livona
+  resourceLanguage: sr
+  resp_organisationName: Livona d.o.o.
+  resp_organisation_emailAddress: info@livona.rs
+  resp_organisation_role: owner
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Kliziste Mali Zvornik_maj 2014
+  useLimitation: 'copyright: Livona d.o.o'

@@ -1,0 +1,55 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'Мрежу нивелмана високе тачности чини скуп трајно стабилизованих и приступачних
+    фундаменталних и радних репера.
+
+    Фундаментални репери престављају тачке приближно равномерно распоређене по целој
+    територији Републике Србије
+
+    на међусобном растојању не мањем од 20km, нити већем од 50 km, на које се ослања
+    цела мрежа нивелмана високе тачности.
+
+    Радни репери могу бити главни и помоћни и распоређени су на растојањима мањим
+    од 1.5km у виду нивелманских линија.'
+  accessConstraints: otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.95'
+  dateTypeCode: creation
+  datestamp: '2010-11-02'
+  denominator: ''
+  dist_format: ASCII
+  distance: '1.5'
+  hierarchylevel: dataset
+  identifier: b2e1ce3f-6fbd-4b82-b516-2447239817d3
+  inspireCategory:
+  - location
+  keywords:
+  - Elevation
+  - Coordinate reference systems
+  - Фундаментални репери, радни репери, висине, висинске разлике, линије, полигони
+  language: sr
+  lineage: 'Мрежа НВТ2 пројектована је 1967, а мерена од 1970-1973.
+
+    Датум мреже чини минимализација мреже мареографа
+
+    Копар, Ровињ, Бакар, Сплит-Марјан, Дубровник и Бар.
+
+    Број репера је 4292.'
+  linkage: http://www.rgz.gov.rs
+  organisation_emailAddress: gr@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: поверљивост списа државних институција
+  publish_date: '1973-01-01T12:00:00'
+  resourceIdentifier: A1-01-07
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: gr@rgz.gov.rs
+  resp_organisation_role: owner
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Нивелман високе тачности 2
+  useLimitation: conditions unknown

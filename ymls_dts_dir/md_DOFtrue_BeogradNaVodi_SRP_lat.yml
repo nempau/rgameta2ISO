@@ -1,0 +1,51 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: trueДигитални ортофото за подручје пројекта 'Београд на води' је израђен
+    у оквиру IGIS пројекта.
+  accessConstraints: ''
+  bounding_box_e: '20.47'
+  bounding_box_n: '44.82'
+  bounding_box_s: '44.78'
+  bounding_box_w: '20.42'
+  dateTypeCode: creation
+  datestamp: '2014-07-16'
+  denominator: ''
+  dist_format: TIFF (*.tif) са TFW (*.tfw)
+  distance: '0.1'
+  hierarchylevel: dataset
+  identifier: e0d6756c-1783-45e2-1325-8e84dca3f84f
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Orthoimagery
+  - trueДОФ
+  - ортофото
+  - IGIS
+  - Београд на води
+  - Београд
+  language: sr
+  lineage: 'Снимање је извршено 12, 13, 14, 15 и 18. августа 2011. године аерофотограметријском
+    камером "UltraCAM Xp"“у оквиру пројекта "Успостављање националне инфраструктуре
+    геопросторних података и Центра за даљинску детекцију Републике Србије - засновано
+    на систему ИГИС"“.
+
+    trueДигитални ортофото је израђен за подручје пројекта ''Београд на води''.
+
+    Израда true oртофото-а извршена је у софтверском систему PixelFactory.'
+  linkage: ''
+  organisation_emailAddress: tik@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: ''
+  publish_date: '2011-08-12T12:00:00'
+  resourceIdentifier: A2-03
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: tik@rgz.gov.rs
+  resp_organisation_role: owner
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: TrueOrtofoto_Beograd_na_Vodi
+  useLimitation: Правилник о висини таксе за пружање услуга РГЗ-а (”Службени гласник
+    РС”, број 116/13)

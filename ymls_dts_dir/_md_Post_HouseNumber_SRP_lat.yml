@@ -1,0 +1,77 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: "X,Y kooridinata koja označava položaj zgrade sa kućnim brojem.\nPrateći\
+    \ alfa-numerički atributi: broj/podbroj, naziv i šifra ulice, naselje, opština,\
+    \ pošta, reon i PAK. \nInformacija o broju domaćinstava na zgradi može da se dobije\
+    \ kao posebna usluga."
+  accessConstraints: otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '42.2'
+  bounding_box_w: '18.5'
+  dateTypeCode:
+  - creation
+  - revision
+  datestamp: '2014-04-01'
+  denominator:
+  - '2500'
+  - '5000'
+  - '10000'
+  - '14500'
+  dist_format: 'e-mailom  ili na prenosivim medijima (CD, DVD, hard disk i sl.): tab,
+    shp, kml'
+  distance: ''
+  hierarchylevel: dataset
+  identifier: cce0d6da-c5af-dda1-8eac-1e45832d55c2
+  inspireCategory:
+  - location
+  keywords:
+  - Addresses
+  - Buildings
+  - Population distribution - demography
+  - PAK
+  - poštanski adresni kod
+  - Kućni broj
+  - Broj domaćinstava
+  - ulica
+  - naselje
+  - opština
+  - poštanski broj
+  - reon
+  language: sr
+  lineage: 'Pošta nije nadležna institucija za imenovanje ulica i utvrđivanje kućnig
+    broja.
+
+    Zvanične nazive ulica tj. one koje je lokalna samouprava objavila u Službenim
+    glasnicima Pošta je implementirala svoju bazu podataka (Beogradski podaci preuzeti
+    od ZIS-Beograd). Ulice kojima lokalna samouprava nije dodelila ime (uglavnom u
+    ruralnom području) Pošta je imenovala po saznanjima poštara kako lokalno stanovništvo
+    zove tu ulicu. Takve ulice imaju status ''PTT-interna''.
+
+    Podaci o kućnim brojevima su oni koji su dostupni poštaru na terenu: adrese sa
+    pošiljaka, oznake na zgradama.
+
+    U slučaju kad je dolazilo do čestih izmena adresa i različitih primena na terenu,
+    podaci su dopunjavani informacijama iz Katastra/www.geosrbija.rs.'
+  linkage: http://www.posta.rs/struktura/lat/it/usluge%20GIS-a.asp
+  organisation_emailAddress: gis@jp.ptt.rs
+  organization_name: JP 'Pošta Srbije'
+  otherConstraints: интелектуална својина
+  publish_date:
+  - '2003-01-01T12:00:00'
+  - '2014-03-31T12:00:00'
+  resourceIdentifier: A1-05-01
+  resourceIdentifierNamespace: INSPIRE_POSTA
+  resourceLanguage: sr
+  resp_organisationName: JP 'Pošta Srbije'
+  resp_organisation_emailAddress: gis@jp.ptt.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Kućni brojevi iz GIS sistema JP ’Pošta Srbije’
+  useLimitation:
+  - 30 din po X,Y koordinati sa pratećim alfa-numeričkim atributima, PTT Službeni
+    glasnik 594 od 21.12.2009.
+  - 3 din po domaćinstvu za informaciju o broju domaćinstava na zgradi, PTT Službeni
+    glasnik 758 od 30.12.2011.

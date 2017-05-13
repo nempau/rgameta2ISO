@@ -1,0 +1,46 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: Дигитални троканални сателитски снимци просторне резолуције 0,5 метара,
+    прикупљени 08.06.2014. године у 9:41 Pleiades сателитским системом за подручје
+    општине Крупањ.
+  accessConstraints: ''
+  bounding_box_e: '19.5'
+  bounding_box_n: '44.5'
+  bounding_box_s: '44.3'
+  bounding_box_w: '19.2'
+  dateTypeCode: creation
+  datestamp: '2014-06-17'
+  denominator: ''
+  dist_format: GeoTiff (*.tif)
+  distance: '0.5'
+  hierarchylevel: dataset
+  identifier: 2083dcaf-da88-9a99-a01c-a17c4e9fa470
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Orthoimagery
+  - снимци
+  - сателит
+  - Pleiades
+  language: sr
+  lineage: 'Дигитални троканални сателитски снимци просторне резолуције 0,5 метара,
+    прикупљени Pleiades сателитским системом.
+
+    Овај производ је орторектификован и радиометријски коригован.'
+  linkage: ''
+  organisation_emailAddress: tik@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: ''
+  publish_date: '2014-06-08T12:00:00'
+  resourceIdentifier: A2-03-03
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: tik@rgz.gov.rs
+  resp_organisation_role: user
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Pleiades_Krupanj_08 jun 2014
+  useLimitation: Услови дистрибуције података су у складу са лиценцним уговором између
+    Републичког геодетског завода и AIRBUS D&S.

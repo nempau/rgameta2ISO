@@ -1,0 +1,55 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: "На картографској основи коју чине општи\nгеографски елементи (рељеф представљен\
+    \ сенком\nи хипсометријском скалом и хидрографска мрежа),\nприказане су границе\
+    \ (државна и покрајинске),\nнасељена места, путна и железничка мрежа,\nназиви\
+    \ планина, планински врхови и њихове \nвисине, национални паркови..."
+  accessConstraints:
+  - otherRestrictions
+  - otherRestrictions
+  bounding_box_e: '23'
+  bounding_box_n: '46.2'
+  bounding_box_s: '41.8'
+  bounding_box_w: '18.95'
+  dateTypeCode: revision
+  datestamp: '2010-10-21'
+  denominator: '300000'
+  dist_format:
+  - tif
+  - cdr
+  - штампана карта
+  distance: ''
+  hierarchylevel: dataset
+  identifier: b2e1ce3f-6fbd-4b82-b516-2447239817d3
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Geographical names
+  - Administrative units
+  - Elevation
+  - Transport networks
+  - Hydrography
+  - рељеф
+  language: sr
+  lineage: "Дигитализована карта на основу раније аналогно урађене карте, \nажурирана\
+    \ према променама насталим у периоду од настанка\nаналогно урађене карте до 2009.\
+    \ год. Аутор карте Тамара Маринковић-\nРадошевић, уредник Владан Стојовић."
+  linkage: http://www.rgz.gov.rs/kart%2Dproizvodi/korpa_edit.asp?ArtikalID=1000205&LanguageID=2&MenuID=0020010
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints:
+  - интелектуална својина
+  - Ауторска права су у потпуности, без ограничења пренета на РГЗ на основу правилника
+    о идавању картографских публикација
+  publish_date: '2008-12-18T12:00:00'
+  resourceIdentifier: 99-FIZGK_01
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: office@rgz.gov.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Физичко географска карта Србије 300000
+  useLimitation: Плаћање накнаде и сагласност РГЗ-а

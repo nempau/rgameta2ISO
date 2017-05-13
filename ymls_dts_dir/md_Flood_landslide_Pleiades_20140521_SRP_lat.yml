@@ -1,0 +1,46 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: Карта потенцијалних клизишта израђена на основу Pleiades снимака од 21.
+    05. 2014. на подручју општине Крупањ.
+  accessConstraints: ''
+  bounding_box_e: '19.49'
+  bounding_box_n: '44.48'
+  bounding_box_s: '44.3'
+  bounding_box_w: '19.25'
+  dateTypeCode: creation
+  datestamp: '2014-07-24'
+  denominator: ''
+  dist_format:
+  - SHAPEFILE (*.SHP)
+  - GeoTiff Raster (*.tif)
+  distance: '0.5'
+  hierarchylevel: dataset
+  identifier: 2083dcaf-da88-9a99-a01c-a17c4e9fa470
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Natural risk zones
+  - Land cover
+  - Pleiades
+  - поплава
+  - клизиште
+  language: sr
+  lineage: Овај производ је настао полуаутоматском анализом орторектификованих и радиометријски
+    коригованих сателитских снимака.
+  linkage: ''
+  organisation_emailAddress: tik@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: ''
+  publish_date: '2014-05-21T12:00:00'
+  resourceIdentifier: A3-12-01
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: tik@rgz.gov.rs
+  resp_organisation_role: user
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Potencijalna_klizista_Krupanj_Pleiades_21 maj 2014
+  useLimitation: Услови дистрибуције података су у складу са лиценцним уговором између
+    Републичког геодетског завода и AIRBUS D&S.

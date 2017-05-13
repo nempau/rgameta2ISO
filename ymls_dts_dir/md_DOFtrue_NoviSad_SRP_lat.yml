@@ -1,0 +1,51 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: Дигитални ортофото за подручје ГУП-а Нови Сад је израђен у оквиру IGIS
+    пројекта.
+  accessConstraints: ''
+  bounding_box_e: '20'
+  bounding_box_n: '45.35'
+  bounding_box_s: '45.15'
+  bounding_box_w: '19.69'
+  dateTypeCode: creation
+  datestamp: '2014-07-16'
+  denominator: ''
+  dist_format: TIFF (*.tif) са TFW (*.tfw)
+  distance: '0.1'
+  hierarchylevel: dataset
+  identifier: 30b5edbc-746c-a3b4-77a1-71c54cad912c
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Orthoimagery
+  - ДОФ
+  - trueOртофото
+  - IGIS
+  - Нови Сад
+  - tДОФ
+  language: sr
+  lineage: 'Снимање је извршено 17 и 18. августа 2011. године аерофотограметријском
+    камером "UltraCAM Xp"“у оквиру пројекта "Успостављање националне инфраструктуре
+    геопросторних података и Центра за даљинску детекцију Републике Србије - засновано
+    на систему ИГИС"“.
+
+    Дигитални ортофото је израђен за подручје ГУП-а Нови Сад.
+
+    Израда oртофото-а извршена је у софтверском систему PixelFactory.'
+  linkage: ''
+  organisation_emailAddress: tik@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints: ''
+  publish_date: '2011-08-17T12:00:00'
+  resourceIdentifier: A2-03
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: tik@rgz.gov.rs
+  resp_organisation_role: owner
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: TrueOrtofoto_NoviSad
+  useLimitation: Правилник о висини таксе за пружање услуга РГЗ-а (”Службени гласник
+    РС”, број 116/13)

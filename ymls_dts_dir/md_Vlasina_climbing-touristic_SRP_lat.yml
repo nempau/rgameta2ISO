@@ -1,0 +1,66 @@
+mcf:
+  version: 1.0.0
+metadata:
+  abstract: 'На картографској основи коју чини генералисан
+
+    садржај топографске карте размере 1:25000,
+
+    приказана је природна и културна баштина,
+
+    туристички објекти, границе и зоне заштите
+
+    зштићених природних добара,...'
+  accessConstraints:
+  - otherRestrictions
+  - otherRestrictions
+  bounding_box_e: '22.5'
+  bounding_box_n: '42.83'
+  bounding_box_s: '42.6'
+  bounding_box_w: '22.23'
+  dateTypeCode: revision
+  datestamp: '2010-10-26'
+  denominator: '30000'
+  dist_format:
+  - tif
+  - cdr
+  - штампана карта
+  distance: ''
+  hierarchylevel: dataset
+  identifier: b2e1ce3f-6fbd-4b82-b516-2447239817d3
+  inspireCategory:
+  - imageryBaseMapsEarthCover
+  keywords:
+  - Hydrography
+  - Geographical names
+  - Elevation
+  - Protected sites
+  - језеро
+  - хотел
+  - одмаралиште
+  - мотел
+  - манастир
+  - камп
+  - зимски центар
+  - плажа
+  language: sr
+  lineage: "Дигитализована карта на основу скенираних топографских карата\nразмере\
+    \ 1:25000 смањених на размеру 1:30000 .\nНа дигитализовану основу нанешен тематски\
+    \ садржај према \nупутству аутора. Аутор Стојан Аргакијев, уредник Владан Стојовић."
+  linkage: http://www.rgz.gov.rs/kart-proizvodi/korpa_edit.asp?ArtikalID=1000985&LanguageID=2&MenuID=0020010
+  organisation_emailAddress: office@rgz.gov.rs
+  organization_name: Републички геодетски завод
+  otherConstraints:
+  - интелектуална својина
+  - Ауторска права су у потпуности, без ограничења пренета на РГЗ на основу правилника
+    о идавању картографских публикација
+  publish_date: '2009-05-14T12:00:00'
+  resourceIdentifier: 99-TURK-07
+  resourceIdentifierNamespace: INSPIRE_RGZ
+  resourceLanguage: sr
+  resp_organisationName: Републички геодетски завод
+  resp_organisation_emailAddress: office@rgz.gov.rs
+  resp_organisation_role: resourceProvider
+  t_extnt_beginPosition: ''
+  t_extnt_endPosition: ''
+  title: Предео изузетних одлика Власина
+  useLimitation: Плаћање накнаде и сагласност РГЗ-а
